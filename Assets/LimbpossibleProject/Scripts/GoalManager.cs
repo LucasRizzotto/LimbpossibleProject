@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GoalManager : MonoBehaviour {
 
-    public bool IsGoalActive;
+    public bool IsGoalActive = false;
 
     [Header("What gets activated if the goal is active?")]
     public List<Animator> ThingsToActivate;
@@ -13,7 +13,18 @@ public class GoalManager : MonoBehaviour {
     {
         foreach(Animator anim in ThingsToActivate)
         {
-            anim.SetTrigger("Activate");
+            anim.SetTrigger("Active");
+        }
+    }
+
+    public void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            if(!IsGoalActive)
+            {
+                UnlockGoal();
+            }
         }
     }
 }
