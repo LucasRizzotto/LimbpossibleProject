@@ -3,7 +3,19 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - TeleportIgnore
+  - FxTemporaire
+  - projectile
+  - ExcludeTeleport
+  - Cubes
+  - Spheres
+  - Leg
+  - Arm
+  - Saucers
+  - Torso
+  - OtherSaucers
+  - ArmAttachment
   layers:
   - Default
   - TransparentFX

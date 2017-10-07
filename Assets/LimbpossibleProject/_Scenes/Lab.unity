@@ -135,7 +135,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 14309220}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.15, y: -13.85, z: 0.44599998}
+  m_LocalPosition: {x: 0.15, y: -31.7, z: 0.44599998}
   m_LocalScale: {x: 0.5, y: 10, z: 1}
   m_Children: []
   m_Father: {fileID: 334894175}
@@ -3865,8 +3865,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0.21320088, w: 0.9770084}
   m_LocalPosition: {x: 1.7, y: 0.066, z: 1.048}
   m_LocalScale: {x: 1.78, y: 1, z: 1.5}
-  m_Children:
-  - {fileID: 1161691519}
+  m_Children: []
   m_Father: {fileID: 598568986}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 24.62}
@@ -6899,7 +6898,7 @@ Transform:
   m_GameObject: {fileID: 987916585}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1.908, z: 4.66}
-  m_LocalScale: {x: 5, y: 4, z: 1}
+  m_LocalScale: {x: 5, y: 10, z: 1}
   m_Children: []
   m_Father: {fileID: 1646049205}
   m_RootOrder: 3
@@ -7891,7 +7890,7 @@ Prefab:
     - target: {fileID: 224000012623161658, guid: d46cf6b1ad9d84a48ae7548a2a6b41b3,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 788
+      value: 495
       objectReference: {fileID: 0}
     - target: {fileID: 224000012623161658, guid: d46cf6b1ad9d84a48ae7548a2a6b41b3,
         type: 2}
@@ -8499,51 +8498,51 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 577311774}
+    m_TransformParent: {fileID: 1646049205}
     m_Modifications:
     - target: {fileID: 400004, guid: 8edaa647e457ca744921cf4ffa52376d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.15499675
+      value: 1.7204026
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 8edaa647e457ca744921cf4ffa52376d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.5530759
+      value: 0.6837332
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 8edaa647e457ca744921cf4ffa52376d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.39933336
+      value: 0.44899994
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 8edaa647e457ca744921cf4ffa52376d, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.4243986
+      value: -0.32822472
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 8edaa647e457ca744921cf4ffa52376d, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.40532786
+      value: -0.48649088
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 8edaa647e457ca744921cf4ffa52376d, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.27360046
+      value: -0.104837716
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 8edaa647e457ca744921cf4ffa52376d, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.76206166
+      value: 0.8028725
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 8edaa647e457ca744921cf4ffa52376d, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 8edaa647e457ca744921cf4ffa52376d, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.39684546
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 8edaa647e457ca744921cf4ffa52376d, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.5
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 8edaa647e457ca744921cf4ffa52376d, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.43648797
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 8edaa647e457ca744921cf4ffa52376d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -8631,9 +8630,9 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 20
+  MaxDistance: 10
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 2
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -8641,20 +8640,38 @@ AudioSource:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 2
-      time: 0
+      time: 0.06416855
       value: 1
-      inSlope: 0
-      outSlope: 0
+      inSlope: -10.0039835
+      outSlope: -10.0039835
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.2
+      value: 0.5
+      inSlope: -2.5009959
+      outSlope: -2.5009959
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.4
+      value: 0.25
+      inSlope: -0.62524897
+      outSlope: -0.62524897
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.8
+      value: 0.125
+      inSlope: -0.15631224
+      outSlope: -0.15631224
       tangentMode: 0
     - serializedVersion: 2
       time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
+      value: 0.1
+      inSlope: -0.10003988
+      outSlope: -0.10003988
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   panLevelCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -10385,7 +10402,7 @@ Transform:
   m_GameObject: {fileID: 1354858223}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.02, y: 1.908, z: -1.65}
-  m_LocalScale: {x: 4.999999, y: 4, z: 1}
+  m_LocalScale: {x: 4.999999, y: 10, z: 1}
   m_Children: []
   m_Father: {fileID: 1646049205}
   m_RootOrder: 4
@@ -11972,6 +11989,7 @@ Transform:
   - {fileID: 804403457}
   - {fileID: 1985405750}
   - {fileID: 902769280}
+  - {fileID: 1161691519}
   m_Father: {fileID: 598568986}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
